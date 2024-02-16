@@ -1,0 +1,25 @@
+.country-cards{
+    display: flex;
+    /* flex-direction: column;
+    align-items: center; */
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-top: 60px;
+    
+}
+.country-card{
+    width: fit-content;
+}
+
+@media only screen and (min-width: 768px) {
+    .country-cards{
+        display: flex;
+        justify-content: center;
+        margin-top: 60px;
+        column-gap: 15px;
+        justify-content: none;
+    }
+    .card-body{
+        padding: 30px;
+    }
+  }
